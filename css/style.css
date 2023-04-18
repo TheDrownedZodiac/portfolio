@@ -34,7 +34,7 @@ header {
 .pp {
     position: absolute;
     border-radius: 10%;
-    border: 2px solid rgb(0, 174, 255);
+    border: 2px solid rgb(0, 0, 0);
     left: 25%;
     top: 7px;
     cursor: pointer;
@@ -43,13 +43,18 @@ header {
 section {
     position: relative;
     width: 100%;
+    height: calc(100vh - 100px);
+    overflow: hidden;
 }
 
 .background {
     position: relative;
     width: 100%;
     height: auto;
-    transform: scale(1.5);
+    display: flex;
+    background-position: center center;
+    background-size: cover;;
+    transform: scale(1.6);
     filter: blur(4px);
     z-index: -1;
 }
@@ -60,7 +65,7 @@ section {
     left: 50%;
     font-size: 25px;
     transform: translateX(-50%);
-    top: 25%;
+    margin-top: 15%;
 }
 
 .info h1 {
