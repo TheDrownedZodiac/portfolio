@@ -10,18 +10,86 @@
 }
 
 header {
-    position: absolute;
-    background-color: aqua;
+    position: relative;
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 20px;
+    padding: 50px 0px 50px 0px;
+}
+
+.nav_bar ul {
+    position: relative;
+    float: right;
+    right: 10%;
+    top: -10px;
 }
 
 .nav_bar li {
-    height: 50%;
     position: relative;
     display: inline-block;
-
+    font-size: larger;
+    padding: 0 20px;
+    cursor: pointer;
 }
 
-.profil a {
+.pp {
+    position: absolute;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 174, 255);
+    left: 25%;
+    top: 7px;
+    cursor: pointer;
+}
+
+section {
+    position: relative;
+    width: 100%;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transform: scale(1.5);
+    filter: blur(4px);
+    z-index: -1;
+}
+
+.info {
+    position: absolute;
+    color: white;
+    left: 50%;
+    font-size: 25px;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.info h1 {
+    font-weight: 100;
+    font-size: 65px;
+    margin: 10px 0px 5px 0px;
+}
+
+.info h1 > a {
+    font-weight: bold;
+    color: rgb(0, 174, 255);
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.button_profile {
+    background: #ffffff;
+    border: 2px solid white;
+    color: #232323;
+    font-size: 15px;
+    padding: 12px 40px 13px;
+    line-height: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button_profile:hover {
+    background: transparent;
+    color: #ffffff;
 }
