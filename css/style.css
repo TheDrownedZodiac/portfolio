@@ -16,14 +16,14 @@ header {
     padding: 50px 0px 50px 0px;
 }
 
-.nav_bar ul {
+.nav-bar ul {
     position: relative;
     float: right;
     right: 10%;
     top: -11px;
 }
 
-.nav_bar li {
+.nav-bar li {
     position: relative;
     display: inline-block;
     font-size: larger;
@@ -31,13 +31,13 @@ header {
     cursor: pointer;
 }
 
-.nav_bar li > a {
+.nav-bar li > a {
     padding: 37px 30px;
     color: black;
-    transition: all 0.2s;    
+    transition: all 0.2s;
 }
 
-.nav_bar li:hover a {
+.nav-bar li:hover a {
     background-color: rgb(0, 174, 255);
     color: white;
 }
@@ -96,7 +96,7 @@ p {
     margin-bottom: 20px;
 }
 
-.button_profile {
+.button-profile {
     background: #ffffff;
     border: 2px solid white;
     color: #232323;
@@ -108,7 +108,7 @@ p {
     transition: all 0.2s;
 }
 
-.button_profile:hover {
+.button-profile:hover {
     background: transparent;
     color: #ffffff;
 }
