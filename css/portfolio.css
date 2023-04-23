@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(1, 133, 195);
+    font-size: 62px;
+}
+
+section {
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div > a {
+    position: relative;
+}
+
+p {
+    position: relative;
+    text-align: justify;
+    width: 300px;
+}

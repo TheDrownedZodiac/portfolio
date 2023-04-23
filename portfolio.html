@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:200,300,500&amp;display=swap" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -19,17 +20,40 @@
                 <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
-        <img class="pp" src="img/profil_picture.jpeg" width="100px">
+        <a href="https://www.linkedin.com/in/victor-vandeputte/" target="_blank">
+            <img class="pp" src="img/profil_picture.jpeg" width="100px">
+        </a>
     </header>
+    <a class="title">Portfolio</a>
 </body>
 <section>
-    <img src="img/map.png">
-    <img src="img/menu.png">
-    <img src="img/rev">
-    <img src="img/rp_sort.png">
-    <img src="img/runners.png">
-    <img src="img/surfaceiso.png">
-    <img src="img/surfacepara.png">
-    <img src="img/tp_circles.png">
+    <ul>
+    <li><div class="p-runner">
+        <a>Runner</a>
+        <img src="img/runner.png" width="300px" height="300px">
+        <p>A l'aide d'une mini-map, le projet runner permet de créer une perspective 3D dans une carte 2D (raycasting)</p>
+    </div></li>
+    <li><div class="p-rev">
+        <a>Rev</a>
+        <img src="img/rev.png" width="300px" height="300px">
+        <p>Permet d'inverser des mots, phrase ou le contenue d'un fichier</p>
+    </div></li>
+    <li><div class="p-rp_sort">
+        <a>RP_sort</a>
+        <img src="img/rp_sort.png" width="300px" height="300px">
+        <p>Algorithme qui peut triller des chiffres et des nombres</p>
+    </div></li>
+    <li><div class="p-surface">
+        <a>Surface</a>
+        <img src="img/surfaceiso.png" width="300px" height="300px">
+        <img src="img/surfacepara.png" width="300px" height="300px">
+        <p>Trace des lignes représentent la surface d'un terrain avec 2 types de projection (isométrique et parallèle)</p>
+    </div></li>
+    <li><div class="p-circle">
+        <a>Spirale</a>
+        <img src="img/tp_circle.png" width="300px" height="300px">
+        <p>Place des pixels de manière à former une spirale</p>
+    </div></li>
+</ul>
 </section>
 </html>
