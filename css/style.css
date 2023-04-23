@@ -42,6 +42,14 @@ header {
     color: white;
 }
 
+.linkedin {
+    position: absolute;
+    right: 5%;
+    top: 12px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
 .pp {
     position: absolute;
     border-radius: 10%;

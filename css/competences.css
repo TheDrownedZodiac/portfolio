@@ -69,3 +69,15 @@ section {
     background-color: rgb(0, 174, 255);
     border-radius: 30px;
 }
+
+.cv {
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.cv:hover {
+    border: 2px solid rgb(0, 174, 255);
+    cursor: pointer;
+}
