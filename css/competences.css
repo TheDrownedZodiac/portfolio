@@ -1,10 +1,29 @@
 section {
-    position: absolute;
+    position: relative;
     width: 80%;
-    height: 936px;
+    height: auto;
     transform: translateX(-50%);
     left: 50%;
-    top: 22%;
+    margin: 4% 0;
+}
+
+.title {
+    position: relative;
+    color: rgb(1, 133, 195);
+    font-size: 62px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.comp-list {
+    position: relative;
+    width: 50%;
+    margin-right: 24px;
 }
 
 .comp {
@@ -16,7 +35,7 @@ section {
 
 .progress-bar {
     height: 7px;
-    width: 50%;
+    width: 100%;
     background-color: rgb(168, 168, 168);
     border-radius: 30px;
 }
@@ -67,15 +86,20 @@ section {
     width: 100%;
 }
 
-
-.cv {
+.cv img {
     border: 2px solid rgb(0, 0, 0);
     float: right;
     transition: all 0.2s;
     cursor: pointer;
 }
 
-.cv:hover {
+.cv img:hover {
     border: 2px solid rgb(0, 174, 255);
     cursor: pointer;
+}
+
+.cv a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
