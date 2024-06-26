@@ -1,0 +1,56 @@
+section {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transform: scale(1.6);
+    filter: blur(4px);
+    z-index: -1;
+}
+
+.info {
+    position: absolute;
+    color: white;
+    left: 50%;
+    font-size: 25px;
+    transform: translateX(-50%);
+    margin-top: 15%;
+}
+
+.info h1 {
+    font-weight: 100;
+    font-size: 65px;
+    margin: 10px 0px 5px 0px;
+}
+
+.info h1>a {
+    font-weight: bold;
+    color: rgb(0, 174, 255);
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.button-profile {
+    background: #ffffff;
+    border: 2px solid white;
+    color: #232323;
+    border-radius: 3%;
+    font-size: 15px;
+    padding: 12px 40px 13px;
+    line-height: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button-profile:hover {
+    background: transparent;
+    color: #ffffff;
+}
