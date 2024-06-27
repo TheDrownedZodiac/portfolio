@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: relative;
+    width: 80%;
+    height: auto;
+    transform: translateX(-50%);
+    left: 50%;
+    margin: 4% 0;
+}
+
+.title {
+    position: relative;
+    color: rgb(1, 133, 195);
+    font-size: 48px;
+}
+
+.title:hover {
+    color: rgb(0, 94, 138);
+}
+
+.projet-list {
+    position: relative;
+    width: 75%;
+    margin-top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.projet-list li {
+    margin-bottom: 48px;
+}
+
+.projet {
+    display: flex;
+    flex-direction: column;
+}
+
+.projet a,
+.projet img,
+.projet p {
+    margin-bottom: 12px;
+}

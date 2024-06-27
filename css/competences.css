@@ -10,7 +10,7 @@ section {
 .title {
     position: relative;
     color: rgb(1, 133, 195);
-    font-size: 62px;
+    font-size: 48px;
 }
 
 .container {
@@ -28,7 +28,7 @@ section {
 
 .comp {
     position: relative;
-    margin-top: 30px;
+    margin-bottom: 30px;
     line-height: 2em;
     font-size: 20px;
 }
