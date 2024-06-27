@@ -9,13 +9,7 @@ section {
     height: auto;
     transform: translateX(-50%);
     left: 50%;
-    margin: 4% 0;
-}
-
-.title {
-    position: relative;
-    color: rgb(1, 133, 195);
-    font-size: 48px;
+    margin-bottom: 4%;
 }
 
 .title:hover {

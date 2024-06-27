@@ -80,3 +80,18 @@ header .nav-bar li>a:before {
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
 }
+
+.title {
+    position: relative;
+    color: rgb(1, 133, 195);
+    font-size: 48px;
+    margin-top: 25px;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 75px 0;
+}
